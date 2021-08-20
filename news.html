@@ -143,6 +143,12 @@ img {vertical-align: middle;}
       color: white;
     }
 
+    .homenews{
+      display: flex;
+      float: left;
+      align-items: flex-start;
+    }
+
     .menuicon {
       display: flex;
       float: right;
@@ -202,13 +208,17 @@ img {vertical-align: middle;}
 <div class="mother">
  <div class="header">
 
-   <div class="homeicon">
-     <a href="index.html">Home</a>
+   <div class=" homenews">
+     <div class="homeicon">
+       <a href="index.html">Home</a>
+     </div>
+     <a  class="active"  href="news.html" class="newsicon">News</a>
    </div>
+   
   </div>
    
   <div class="menuicon">
-    <a  class="active"  href="news.html" class="newsicon">News</a>
+    
     <a href="connect.html">Contact</a>
     <a href="about.html">About</a>
   </div>
