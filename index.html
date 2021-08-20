@@ -119,12 +119,12 @@ img {vertical-align: middle;}
     }
     
     .mother a {
-      display: flex;
-      float: left;
-      flex-direction: row;
-
+      display:flex;
+      float: right;
+      justify-content: right;
+      flex-direction: column;
       color: #f2f2f2;
-      text-align: center;
+      text-align:center;
       padding: 14px 16px;
       text-decoration: none;
       font-size: 17px;
@@ -145,22 +145,7 @@ img {vertical-align: middle;}
       
     }
 
-    .menuicon {
-      display: flex;
-      float: right;
-
-      background-color: rgb(27, 27, 27);
-      color: #ddd;
-      overflow: hidden;
-      
-      text-align: start;
-      
-      text-decoration: whitesmoke;
-      font-size: 17px;
-      
-
-
-    }
+    
 
     </style>
 </head>
@@ -199,14 +184,14 @@ img {vertical-align: middle;}
 <!-- <i class="fas fa-angle-double-up"></i> -->
 
 <div class="mother">
- <div class="header">
-   <div class="homeicon">
+ 
+  <div class="homeicon">
      <a class="active" href="index.html">Home</a>
-   </div>
- </div>
+  </div>
+ 
    
   <div class="menuicon">
-    <a href="news.html" class="newsicon">News</a>
+    <a href="news.html" >News</a>
     <a href="connect.html">Contact</a>
     <a href="about.html">About</a>
   </div>
