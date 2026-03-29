@@ -78,7 +78,7 @@ img {vertical-align: middle;}
 }
 
 .active, .dot:hover {
-  background-color: #717171;
+  background-color: #4caf50 ;
 }
 
 /* Fading animation */
@@ -110,12 +110,12 @@ img {vertical-align: middle;}
       font-family: Arial, Helvetica, sans-serif;
     }
     
-    .topnav {
+    .mother {
       overflow: hidden;
-      background-color: #333;
+      background-color: rgb(27, 27, 27);
     }
     
-    .topnav a {
+    .mother a {
       float: left;
       color: #f2f2f2;
       text-align: center;
@@ -123,13 +123,31 @@ img {vertical-align: middle;}
       text-decoration: none;
       font-size: 17px;
     }
-    
-    .topnav a:hover {
+
+    .menuicon {
+      display: flex;
+
+      background-color: rgb(27, 27, 27);
+      color: #ddd;
+      overflow: hidden;
+      
+      text-align: start;
+      
+      text-decoration: whitesmoke;
+      font-size: 17px;
+      
+    }
+
+    .mother a:hover {
       background-color: #ddd;
       color: black;
     }
+    .contacticon a:hover {
+      background-color: rgb(27, 27, 27);
+      color: rgb(3, 32, 9);
+    }
     
-    .topnav a.active {
+    .contacticon a.active {
       background-color: #4CAF50;
       color: white;
     }
@@ -137,8 +155,8 @@ img {vertical-align: middle;}
 </head>
 <body>
     <div>
-        <h3 style=" text-align: center; margin-bottom: 0px;"><b>အ.ထ.က ၂ ဗဟန်း နန်ယန်</b></h3>
-        <h5 style="margin-top: 0px; text-align: center;">Basic Education High School No. 2 Bahan</h5>
+        <h3 style=" text-align: center; margin-bottom: 0px;"><b>အ.ထ.က ၂ ဗဟန်း (နန်ယန်)</b></h3>
+        <h5 style="margin-top: 0px; text-align: center;"> No.2 Basic Education High School,Bahan</h5>
       
     </div>
 <div class="slideshow-container">
@@ -172,12 +190,20 @@ img {vertical-align: middle;}
     top: 0px;
   }
 </style>
-<div class="topnav">
-    <a href="index.html">Home</a>
-    <a href="news.html">News</a>
-    <a class="active"  href="connect.html">Contact</a>
-    <a href="about.html">About</a>
-  </div>
+<div class="mother">
+  <div class="header">
+ 
+    <div class="homeicon">
+      <a href="index.html">Home</a>
+    </div>
+   </div>
+    
+   <div class="menuicon">
+     <a href="news.html" >News</a>
+     <a  class="active" class="contacticon" href="connect.html">Contact</a>
+     <a href="about.html">About</a>
+   </div>
+ </div>
   
   <style>
       li a {
@@ -187,7 +213,7 @@ img {vertical-align: middle;}
   <div style="padding-left:16px">
     <h2>Phone Number</h2>
     <li>
-        09-********
+        01-554107
     </li>
     <h2>Facebook Pages</h2>
     <li>
